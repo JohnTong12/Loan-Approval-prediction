@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import pickle as pkl
 import pandas as pd
 from pydantic import BaseModel, Field
 from typing import Literal
@@ -9,7 +9,7 @@ import os
 # Load the pre-trained pipeline
 file_path = os.path.join(os.path.dirname(__file__), "models", "pipeline.pkl")
 with open(file_path, "rb") as file:
-    pipeline = pickle.load(file)
+    pipeline = pkl.load(file)
 
 # Pydantic model for input validation
 class LoanApplication(BaseModel):
