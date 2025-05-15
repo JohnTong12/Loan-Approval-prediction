@@ -3,3 +3,4 @@ pydantic
 pickle-mixin==1.0.2
 pandas==2.2.3
 typing-extensions==4.13.2 
+imbalanced-learn==0.12.3
