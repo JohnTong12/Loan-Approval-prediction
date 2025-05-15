@@ -95,7 +95,7 @@ The dataset used for training includes 13 features, such as:
 - Property Area
 - Education, and more
 
-For detailed model performance, refer to the [Jupyter Notebook](LOAN_APPROVED_WORK.html) in the repository.
+For detailed model performance, refer to the [Jupyter Notebook](LOAN_APPROVED_WORK.ipynb) in the repository.
 
 ## 📂 Project Structure
 ```
