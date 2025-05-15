@@ -3,10 +3,12 @@ import pickle
 import pandas as pd
 from pydantic import BaseModel, Field
 from typing import Literal
+import os
 
 # Load the pre-trained pipeline
-# # Load the pre-trained pipeline
-with open(r"C:\Users\HP\Documents\LoanApp\pipeline.pkl", "rb") as file:
+# Load the pre-trained pipeline
+file_path = os.path.join(os.path.dirname(__file__), "models", "pipeline.pkl")
+with open(file_path, "rb") as file:
     pipeline = pickle.load(file)
 
 # Pydantic model for input validation
