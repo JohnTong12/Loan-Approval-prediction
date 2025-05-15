@@ -5,7 +5,8 @@ from pydantic import BaseModel, Field
 from typing import Literal
 
 # Load the pre-trained pipeline
-with open(r"C:\Users\HP\Downloads\pipeline.pkl", "rb") as file:
+# # Load the pre-trained pipeline
+with open(r"C:\Users\HP\Documents\LoanApp\pipeline.pkl", "rb") as file:
     pipeline = pickle.load(file)
 
 # Pydantic model for input validation
