@@ -2,4 +2,4 @@ streamlit==1.43.2
 pydantic
 pickle-mixin==1.0.2
 pandas==2.2.3
-typing==4.12.2 
+typing-extensions==4.13.2 
