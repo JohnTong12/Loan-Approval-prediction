@@ -1,5 +1,7 @@
 # Home Loan Approval Predictor
 
+![](Images/HomeLoan.jpg)
+
 Welcome to the **Home Loan Approval Predictor**! This project uses machine learning to predict whether a home loan application will be approved or rejected based on applicant details. Built with Python and Streamlit, it provides an easy-to-use web interface for users to input their information and get instant predictions.
 
 ## 🌐 Try the App
