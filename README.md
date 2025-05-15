@@ -137,7 +137,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 📬 Contact
 
 Have questions or suggestions? Reach out to me at:
-- Email: your.email@example.com
-- GitHub: [your-username](https://github.com/your-username)
+- Email: tongjohn9@gmail.com
+- GitHub: [your-username](https://github.com/JohnTong12)
 
 Happy predicting! 🎉
